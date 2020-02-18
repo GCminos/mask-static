@@ -19,6 +19,20 @@ color: #197C10;
 .title-text{
 font-size: 1.25rem;
 }
+
+#righttime picture{
+  width:50%;
+  display:inline-block;
+  float:left;
+}
+#righttime .app_downloads a{
+  display:inline-block;
+  width:150px;
+}
+#righttime .app_downloads img{
+  width:150px;
+}
+
 @media (max-width: 440px) {
   .title-h1{
     font-size: 1.8rem;
@@ -27,6 +41,10 @@ font-size: 1.25rem;
     .title-text{
     font-size: 0.9rem;
     }
+
+  #righttime picture{
+    width:100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -37,6 +55,10 @@ font-size: 1.25rem;
     .title-text{
     font-size: 0.8rem;
     }
+
+  #righttime picture{
+    width:100%;
+  }
   
 }
 
@@ -119,6 +141,9 @@ svg{
     height: 55px;
     right: 8%;
   }
+  #righttime picture{
+    width:100%;
+  }
   
 }
 
@@ -127,6 +152,9 @@ svg{
     width: 45px;
     height: 45px;
     right: 5%;
+  }
+  #righttime picture{
+    width:100%;
   }
   
 }
